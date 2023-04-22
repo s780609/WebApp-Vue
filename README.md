@@ -1,8 +1,8 @@
-# WebApp-Vue
-MVC version: .NET 6 (server side)
-Vue version: 3 (client side)
+# WebApp-Vue  
+MVC version: .NET 6 (server side)  
+Vue version: 3 (client side)  
 
-WebApi & Vue3 template
+WebApi & Vue3 template  
 Use package [Microsoft.AspNetCore.SpaProxy](https://learn.microsoft.com/en-us/aspnet/core/client-side/spa/intro?view=aspnetcore-7.0) to build an MVC with Vue SPA template   
 Client side is Vue   
 Server side is ASP.NET MVC

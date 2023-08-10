@@ -7,11 +7,22 @@ Use package [Microsoft.AspNetCore.SpaProxy](https://learn.microsoft.com/en-us/as
 Client side is Vue   
 Server side is ASP.NET MVC
 
-# Vue (client side)
+## MVC(server side)
+The project is a ASP.NET MVC project. So you can build your MVC view page if you need.
+
+## Vue (client side)
 the `client-app` folder is a vue 3.0 project build by vue-cli
 
-##  communicate with api
+###  communicate with api
 Use rotue `api` can call server-side api controller
 
-# MVC
-The project is a ASP.NET MVC project. So you can build your MVC view page if you need.
+## docker 
+build docker image
+```bash
+docker build -t hsutinghuan/webapp-vue .
+```
+
+build docker container
+```bash
+docker run -dp 3000:80 hsutinghuan/webapp-vue
+```
